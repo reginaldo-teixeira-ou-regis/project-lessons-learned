@@ -1,3 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
+header {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: green;
+  text-align: center;
+  color: white;
+}

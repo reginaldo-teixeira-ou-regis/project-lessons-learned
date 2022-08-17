@@ -32,9 +32,19 @@ main {
 .my-name {
   font-size: 35px;
   font-family: Georgia, Times, serif;
+  font-style: italic bold;
   position: absolute;
   display: block;
   top: 380px;
+  left: 0;
+  padding: 3%;
+}
+
+footer {
+  font-family: Georgia, Times, serif;
+  position: absolute;
+  display: block;
+  top: 910px;
   left: 0;
   padding: 3%;
 }

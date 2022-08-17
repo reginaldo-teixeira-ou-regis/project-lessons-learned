@@ -14,9 +14,27 @@ header {
 
 #minha_foto {
   width: 300px;
-  position: fixed;
+  position: absolute;
   display: block;
   top: 90px;
+  left: 0;
+  padding: 2%;
+}
+
+main {
+  position: absolute;
+  display: block;
+  top: 470px;
+  left: 0;
+  padding: 3%;
+}
+
+.my-name {
+  font-size: 35px;
+  font-family: Georgia, Times, serif;
+  position: absolute;
+  display: block;
+  top: 380px;
   left: 0;
   padding: 3%;
 }

@@ -11,3 +11,12 @@ header {
   text-align: center;
   color: white;
 }
+
+#minha_foto {
+  width: 300px;
+  position: fixed;
+  display: block;
+  top: 90px;
+  left: 0;
+  padding: 3%;
+}

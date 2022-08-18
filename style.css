@@ -7,16 +7,19 @@ header {
   display: block;
   top: 0;
   left: 0;
+  right: 0;
   background-color: green;
   text-align: center;
   color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 #minha_foto {
   width: 300px;
   position: absolute;
   display: block;
-  top: 90px;
+  top: 125px;
   left: 0;
   padding: 2%;
 }
@@ -30,21 +33,30 @@ main {
 }
 
 .my-name {
-  font-size: 35px;
-  font-family: Georgia, Times, serif;
-  font-style: italic bold;
+  font-size: 36.3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic, bold;
   position: absolute;
   display: block;
-  top: 380px;
+  top: 400px;
   left: 0;
-  padding: 3%;
+  padding: 3% 2%;
 }
 
 footer {
   font-family: Georgia, Times, serif;
   position: absolute;
   display: block;
-  top: 1030px;
+  top: 940px;
   left: 0;
   padding: 3%;
 }
+
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+

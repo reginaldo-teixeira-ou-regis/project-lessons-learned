@@ -47,7 +47,7 @@ footer {
   font-family: Georgia, Times, serif;
   position: absolute;
   display: block;
-  top: 940px;
+  top: 1000px;
   left: 0;
   padding: 3%;
 }
@@ -58,5 +58,25 @@ footer {
 
 #licoes_aprendidas {
   display: inline-block;
+}
+
+table {
+  border: 2px solid black;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: green;
+}
+
+th {
+  border: 2px solid black;
+  width: 25%;
+  color: gold;
+}
+
+td {
+  border: 2px solid black;
+  width: 25%;
+  color: white;
 }
 

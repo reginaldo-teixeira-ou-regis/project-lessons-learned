@@ -29,11 +29,12 @@ main {
   display: block;
   top: 470px;
   left: 0;
-  padding: 2.9%;
+  padding: 3%;
 }
 
 .my-name {
-  font-size: 36.3px;
+  font-size: 36.2px;
+  line-height: 120%;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic, bold;
   position: absolute;
@@ -44,13 +45,13 @@ main {
 }
 
 footer {
-  font-family: Georgia, Times, serif;
+  font-family: Impact, sans-serif;
   position: absolute;
   display: block;
   top: 1050px;
   left: 0;
   padding: 3%;
-  margin: 1px;
+  margin: 0;
 }
 
 #licoes_a_aprender {
@@ -62,7 +63,7 @@ footer {
 }
 
 table {
-  border: 3px solid black;
+  border: 2px solid black;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -72,7 +73,7 @@ table {
 th {
   border: 2px solid black;
   width: 25%;
-  color: gold;
+  color: rgb(255, 217, 0);
 }
 
 td {
@@ -80,4 +81,3 @@ td {
   width: 25%;
   color: white;
 }
-

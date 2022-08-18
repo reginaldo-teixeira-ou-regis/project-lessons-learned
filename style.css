@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, sans-serif;
 }
 
 header {
@@ -45,10 +46,10 @@ main {
 }
 
 footer {
-  font-family: Impact, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   display: block;
-  top: 1050px;
+  top: 1030px;
   left: 0;
   padding: 3%;
   margin: 0;
@@ -73,11 +74,29 @@ table {
 th {
   border: 2px solid black;
   width: 25%;
-  color: rgb(255, 217, 0);
+  color: gold;
 }
 
 td {
   border: 2px solid black;
   width: 25%;
   color: white;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+}
+
+.lado-direito {
+  display: inline-block;
+  position: absolute;
+  width: 30%;
+  right: 0;
+}
+
+.contacts-link li {
+  display: inline-block;
+  width: 70px;
 }
